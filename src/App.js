@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import './i18n'; // Certifique-se de importar a configuração do i18n
+
 import {
   BrowserRouter as Router,
   Route,
