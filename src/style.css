@@ -1,21 +1,26 @@
 html {
+  /* Fundo das seções com gradiente em tons de vinho */
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(77, 16, 30, 0.822), /* Vinho muito escuro translúcido */
+    rgb(71, 16, 35)  /* Quase preto com toque de vinho */
   );
 
+  /* Gradiente para imagens com tons de vinho escuro */
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgb(87, 10, 25), /* Vinho escuro */
+    rgba(78, 4, 30, 0.95)  /* Profundidade ainda maior */
   );
 
-  --imp-text-color: #c770f0;
+  /* Cor de destaque importante */
+  --imp-text-color: #f03060; /* Vinho vivo */
 }
 
-.purple {
-  color: var(--imp-text-color) !important;
+
+.red {
+  color: #f03060 !important;
+  
 }
 
 button:focus {
@@ -32,7 +37,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #130505;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,12 +62,12 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #180d0d;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(216, 121, 121, 0.959);
   border-radius: 12px;
 }
 
@@ -252,16 +257,16 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  padding-bottom:200px !important;
 }
 
 .home-section {
-  position: relative;
+  
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+
 }
 
 .home-content {
@@ -281,14 +286,19 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color:  var(--imp-text-color);
+  /*text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);&*/
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: var(--imp-text-color) !important;
   font-weight: 600 !important;
+  
+  /* Adicionando sombra ao texto */
+ /* text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Sombra escura e suave */
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
@@ -319,7 +329,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
+  padding-bottom: 100px !important;
   padding-top: 70px !important;
 }
 
@@ -397,7 +407,10 @@ button:focus {
 .icon-colour {
   color: #700c86 !important;
 }
-
+.img-fluid{
+  border-radius: 50%
+}
+ 
 /* --------- */
 /* Footer */
 /* --------- */
@@ -544,7 +557,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 250px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;

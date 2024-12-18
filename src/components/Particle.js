@@ -5,7 +5,7 @@ function Particle() {
   return (
     <Particles
       id="tsparticles"
-      params={{
+      options={{
         particles: {
           number: {
             value: 160,
@@ -20,7 +20,7 @@ function Particle() {
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 50,
           },
           size: {
             value: 1,
@@ -28,7 +28,7 @@ function Particle() {
           opacity: {
             anim: {
               enable: true,
-              speed: 1,
+              speed: 1.5,
               opacity_min: 0.05,
             },
           },

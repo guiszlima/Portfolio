@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.jpg";
 import Tilt from "react-parallax-tilt";
 
 import {
@@ -28,7 +28,7 @@ function Home2() {
               <br />
               {t('fluent_languages')}: 
               <i>
-                <b className="purple">{t('languages')} </b>
+                <b className="red">{t('languages')} </b>
               </i>
               <br />
               <br />
