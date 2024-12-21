@@ -1,31 +1,75 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
+  const { t } = useTranslation();
+
   return (
     <Container fluid className="footer">
       <Row>
+        {/* Links do Navbar */}
+        <Col md="4" className="footer-links" style={{ position: "relative", zIndex: 10 }}>
+      <h3>{t('quick_links')}</h3>
+      <ul className="footer-nav-links">
+        <li>
+          <Link to="/" className="footer-link">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" className="footer-link">
+           {t('about')}
+          </Link>
+        </li>
+        <li>
+          <Link to="/project" className="footer-link">
+            {t('projects')}
+          </Link>
+        </li>
+        <li>
+          <Link to="/resume" className="footer-link">
+            {t('resume')}
+          </Link>
+        </li>
+      </ul>
+    </Col>
+
+        {/* Direitos autorais */}
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
+        <a id="copywright-link"
+  href="https://github.com/soumyajit4419/Portfolio"
+  
+  target="_blank"
+  rel="noopener noreferrer"
+  
+>
+  Soumyajit Behera
+</a>
+
+  <h3> {/* Cor cinza discreta */}
+    Copyright © {year} SB
+  </h3>
+</Col>
+
+        {/* Ícones Sociais */}
         <Col md="4" className="footer-body">
+          <h3>{t('connect_me')}</h3>
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/guiszlima"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -33,19 +77,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://www.linkedin.com/in/guilherme-spicacci-lima-177a63245/"
                 style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -53,9 +87,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/guiszlima"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
