@@ -29,21 +29,27 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt={t("intro_title")} className="img-fluid" />
-          </Col>
+  md={5}
+  style={{
+    paddingTop: "50px",
+    paddingBottom: "50px",
+    position: "relative", // Necessário para usar z-index
+    zIndex: 10,          // Garante que o elemento esteja acima
+  }}
+  className="about-img"
+>
+  <img src={laptopImg} alt={t("intro_title")} className="img-fluid" />
+</Col>
+
         </Row>
         <h1 className="project-heading">
-          {t("fluent_languages")} <strong className="red">{t("languages")}</strong>
+         <strong className="red">  {t("professional_skill")}</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="red">{t("find_me_on")}</strong>
+          <strong className="red">{t("tools_i_use")}</strong>
         </h1>
         <Toolstack />
 

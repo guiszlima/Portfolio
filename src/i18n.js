@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
         intro_text: "I am passionate about programming and have gained proficiency in several languages. I love solving problems and creating solutions.",
         fluent_languages: "I am fluent in languages such as",
         languages: " Python, JavaScript, and PHP.",
-        web_technologies: "My interests include building Web Products and learning new things every day.",
+        web_technologies: "My interests include building Web Systems and learning new things every day.",
         develop_products: "I enjoy developing products with React and Laravel, leveraging modern tools and frameworks for efficient and scalable applications.",
         find_me_on: "FIND ME ON",
         connect_with_me: "Feel free to connect with me",
@@ -23,6 +23,8 @@ i18n.use(initReactI18next).init({
         projects:'Projects',
         resume:'Resume',  
         quick_links:'Quick Links',
+        professional_skill:'Professional Skillset',
+        tools_i_use:'Tools i use'
       },
     },
     pt: {
@@ -33,7 +35,7 @@ i18n.use(initReactI18next).init({
         intro_text: "Sou apaixonado por programação e adquiri proficiência em várias linguagens. Adoro resolver problemas e criar soluções.",
         fluent_languages: "Sou fluente em linguagens como",
         languages: " Python, JavaScript, e PHP.",
-        web_technologies: "Meus interesses incluem construir Produtos Webs e aprender coisas novas todos os dias.",
+        web_technologies: "Meus interesses incluem construir Sistemas Webs e aprender coisas novas todos os dias.",
         develop_products: "Gosto de desenvolver produtos com React e Laravel, aproveitando ferramentas e frameworks modernos para aplicações eficientes e escaláveis.",
         find_me_on: "ME ENCONTRE NAS REDES",
         connect_with_me: "Sinta-se à vontade para se conectar comigo",
@@ -45,6 +47,8 @@ i18n.use(initReactI18next).init({
         projects:'Projetos',
         resume:'Currículo',  
         quick_links:'Links Rápidos',
+        professional_skill:'Conjunto de Habilidades Profissionais',
+        tools_i_use:'Ferramentas que eu uso'
       },
     },
   },

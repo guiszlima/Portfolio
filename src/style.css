@@ -78,7 +78,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #962d2d2c !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -120,7 +120,7 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
+.-toggler:not(.collapsed) span:nth-child(1) {
   position: absolute !important;
   left: 12px !important;
   top: 10px !important;
@@ -157,8 +157,12 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  font-size: large;
+  font-family: "Press Start 2P", serif;
+  font-weight: 100;
+  font-style: normal;
+ 
+  
 }
 
 .navbar-nav .nav-link {
@@ -636,7 +640,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(255, 0, 0, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
