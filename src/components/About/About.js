@@ -23,8 +23,8 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              {t("hello")} <strong className="red">{t("i_am")}</strong>
+            <h1 className="red" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              {t("hello_how_are_you")}
             </h1>
             <Aboutcard />
           </Col>

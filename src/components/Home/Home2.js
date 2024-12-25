@@ -8,7 +8,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from 'react-i18next'; // Importando o hook de tradução
 import { Trans } from 'react-i18next';
 function Home2() {
@@ -81,6 +81,16 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/5511991993229?text=Olá%20Guilherme!%20Encontrei%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

@@ -70,7 +70,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: var(--imp-text-color);
   border-radius: 12px;
 }
 
@@ -99,7 +99,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #f45050 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -200,7 +200,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #f55b5b;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -209,6 +209,39 @@ button:focus {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+/* Estilização do botão */
+.lang-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Cor de fundo do botão */
+  border: 2px solid #ccc; /* Borda do botão */
+  border-radius: 8px; /* Arredondamento */
+  padding: 10px; /* Espaçamento interno */
+  cursor: pointer; /* Muda o cursor para indicar interatividade */
+  transition: all 0.3s ease; /* Transição suave ao passar o mouse */
+  outline: none; /* Remove o contorno padrão */
+}
+
+.lang-switcher:hover {
+  background-color: #e0e0e0; /* Fundo mais escuro no hover */
+  border-color: #bbb; /* Cor da borda no hover */
+}
+
+.lang-switcher:active {
+  background-color: #d0d0d0; /* Fundo mais escuro ao clicar */
+}
+
+/* Estilização da imagem dentro do botão */
+.language-icon {
+  width: 40px; /* Largura da imagem */
+  height: 30px; /* Altura da imagem */
+  transition: transform 0.3s ease; /* Animação ao passar o mouse */
+}
+
+.lang-switcher:hover .language-icon {
+  transform: scale(1.1); /* Aumenta levemente a imagem no hover */
 }
 
 /* --------- */
@@ -315,7 +348,7 @@ button:focus {
 
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: var(--imp-text-color) !important;
 }
 
 @media (max-width: 767px) {
@@ -526,9 +559,9 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(136, 53, 53, 0.459) !important;
   color: white !important;
-  background-color: transparent !important;
+  background-color: #6c757d34 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -536,7 +569,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(144, 72, 72, 0.561) !important;
 }
 
 .blog-card {
@@ -573,7 +606,7 @@ button:focus {
 .card-img-top {
   padding: 20px !important;
   opacity: 0.8 !important;
-  border-radius: 10px !important;
+  border-radius: 50% !important;
 }
 
 .blog-img {
@@ -584,21 +617,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #863636 !important;
+  border-color: #863636 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #c52020d7 !important;
+  border-color: #c52020d7 !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: var(--imp-text-color) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;

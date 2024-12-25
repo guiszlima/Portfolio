@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import LanguageSwitcher from "./LanguageSwitcher";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -94,7 +95,10 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> {t('resume')}
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item style={{ marginBottom: "2px" }}>
+              
+            <LanguageSwitcher />
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

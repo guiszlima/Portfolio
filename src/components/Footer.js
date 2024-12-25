@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -93,6 +94,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://wa.me/5511991993229?text=Olá%20Guilherme!%20Encontrei%20seu%20portfólio%20e%20gostaria%20de%20conversar"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiOutlineWhatsApp />
               </a>
             </li>
           </ul>
