@@ -1,17 +1,17 @@
 html {
-  /* Fundo das seções com gradiente em tons de vinho */
-  --section-background-color:  linear-gradient(to left,rgba(27, 2, 7, 0.986), /* Vinho escuro */
-  rgba(25, 2, 10, 0.95))
+  
+  --section-background-color:  linear-gradient(to left,rgba(27, 2, 7, 0.986), 
+  rgba(25, 2, 10, 0.95));
 
-  /* Gradiente para imagens com tons de vinho escuro */
+  
   --image-gradient: linear-gradient(
     to bottom left,
-    rgb(87, 10, 25), /* Vinho escuro */
-    rgba(78, 4, 30, 0.95)  /* Profundidade ainda maior */
+    rgb(87, 10, 25), 
+    rgba(78, 4, 30, 0.95)  
   );
 
-  /* Cor de destaque importante */
-  --imp-text-color: #f03060; /* Vinho vivo */
+
+  --imp-text-color: #f03060; 
 }
 
 
@@ -24,9 +24,6 @@ button:focus {
   box-shadow: none !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
 #preloader {
   position: fixed;
   top: 0;
@@ -540,9 +537,7 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
-/* --------- */
-/* Projects */
-/* --------- */
+
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -637,9 +632,7 @@ button:focus {
   padding-top: 10px !important;
 }
 
-/* --------- */
-/* About */
-/* --------- */
+
 
 .about-section {
   position: relative !important;
@@ -697,9 +690,7 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
+
 
 .resume-section {
   position: relative !important;
@@ -823,7 +814,7 @@ button:focus {
 form {
   display: flex;
   flex-direction: column;
-  gap: 1rem; /* Espaçamento vertical entre os elementos do formulário */
+  gap: 1rem; 
   z-index: 10;
 }
 
@@ -833,8 +824,8 @@ form input,
 form textarea {
   width: 100%;
   padding: 0.5rem 1rem;
-  border: 1px solid #ccc; /* Cor do contorno */
-  border-radius: 0.4rem; /* Bordas arredondadas */
+  border: 1px solid #ccc; 
+  border-radius: 0.4rem; 
   font-size: 1rem;
   line-height: 1.5;
   background-color: #fff;
@@ -844,51 +835,51 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-  border-color: #3b82f6; /* Azul - bg-blue-500 */
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); /* Glow azul */
+  border-color: #3b82f6; 
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); 
   outline: none;
 }
 
 form textarea {
-  resize: vertical; /* Permite redimensionar verticalmente */
+  resize: vertical; 
 }
 
 form p {
-  font-size: 0.875rem; /* text-sm */
-  color: #ef4444; /* Vermelho - text-red-500 */
+  font-size: 0.875rem; 
+  color: #ef4444; 
   margin-top: 0.25rem;
 }
 form div label {
   
-  color: #ffffff; /* Vermelho - text-red-500 */
+  color: #ffffff; 
   
 }
 form button {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #3b82f6; /* Azul - bg-blue-500 */
+  background-color: #3b82f6;
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
   border: none;
-  border-radius: 0.375rem; /* Bordas arredondadas */
+  border-radius: 0.375rem; 
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 form button:hover {
-  background-color: #2563eb; /* Azul mais escuro - hover:bg-blue-600 */
+  background-color: #2563eb;
 }
 .form-container {
-  width: 40%; /* Largura padrão para dispositivos menores */
-   /* Largura máxima para telas maiores */
+  width: 40%;
+   
   margin-right: auto;
   margin-left: auto;
 }
 @media (max-width: 767px) {
   .form-container {
-    width: 90%; /* Largura padrão para dispositivos menores */
-     /* Largura máxima para telas maiores */
+    width: 90%; 
+   
    
   }
 }

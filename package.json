@@ -22,7 +22,6 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.43.1",
     "tsparticles": "^3.7.1",
-    "typescript": "^5.7.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
@@ -49,5 +48,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }

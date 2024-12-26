@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
   const toggleLanguage = () => {
     const newLanguage = i18n.language === "en" ? "pt" : "en";
     i18n.changeLanguage(newLanguage);
-    i18n.store(newLanguage);
+    
   };
 
   return (
