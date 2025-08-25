@@ -1,0 +1,118 @@
+{
+  "selectedTemplate": 6,
+  "headings": {
+    "awards": "",
+    "work": "WORK EXPERIENCE",
+    "skills": "SKILLS",
+    "education": "EDUCATION"
+  },
+  "basics": {
+    "email": "gui.spicacci.dev@gmail.com",
+    "phone": "11991993229",
+    "name": "Guilherme Lima",
+    "location": {
+      "address": "São Paulo, SP"
+    },
+    "website": "            | portfolio-guiszlima.vercel.app | github.com/guiszlima | linkedin.com/in/guilhermesouzalima/"
+  },
+  "education": [
+    {
+      "institution": "UNINOVE",
+      "startDate": "2023",
+      "endDate": "Dec/2026",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree |"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Development and implementation of custom on-demand systems, focusing on automation and business process optimization.",
+        "Created a Point of Sale (POS) integrated with WooCommerce that optimized inventory and sales control for small stores, using Laravel as the backend framework.",
+        "Architecture and structuring of web applications, applying software architecture patterns to ensure scalability and security.",
+        "Development of websites, e-commerce platforms, and landing pages using WordPress.",
+        "Technical support and consulting for companies and entrepreneurs."
+      ],
+      "company": "Freelancer ",
+      "position": "Web Developer",
+      "startDate": "Aug/2024",
+      "endDate": "Present"
+    },
+    {
+      "website": "",
+      "highlights": [
+        "Technical support for users across different sectors, including customer service and troubleshooting.",
+        "Troubleshooting hardware and software issues with a focus on agility and efficiency.",
+        "Preventive and corrective maintenance of equipment and systems.",
+        "Assistance in configuring and supporting the city's internal systems.",
+        "Configuration and monitoring of servers with Zabbix.",
+        "Development of web systems using Laravel and WordPress."
+      ],
+      "company": "PREFEITURA DE SÃO PAULO (PMSP)",
+      "position": "Technical Support Intern",
+      "startDate": "Dec/2023",
+      "endDate": "Aug/2024"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python (FastAPI, RPC, Automation)",
+        "JavaScript & TypeScript (Node.js, Express.js)",
+        " PHP (Laravel)"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Livewire",
+        "Blade"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": ["MySQL", "SQL", "MongoDB"],
+      "name": "Database"
+    },
+    {
+      "keywords": ["Linux", "Git", "Docker", "Zabbix"],
+      "name": "Devops"
+    },
+    {
+      "keywords": ["PowerShell", "Postman", "WordPress"],
+      "name": "Technologies"
+    },
+    {
+      "keywords": ["Portuguese (native)", "English (advanced)"],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

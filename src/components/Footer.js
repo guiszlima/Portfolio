@@ -19,52 +19,39 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         {/* Links do Navbar */}
-        <Col md="4" className="footer-links" style={{ position: "relative", zIndex: 10 }}>
-      <h3>{t('quick_links')}</h3>
-      <ul className="footer-nav-links">
-        <li>
-          <Link to="/" className="footer-link">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" className="footer-link">
-           {t('about')}
-          </Link>
-        </li>
-        <li>
-          <Link to="/project" className="footer-link">
-            {t('projects')}
-          </Link>
-        </li>
-        <li>
-          <Link to="/resume" className="footer-link">
-            {t('resume')}
-          </Link>
-        </li>
-      </ul>
-    </Col>
-
-        {/* Direitos autorais */}
-        <Col md="4" className="footer-copywright">
-        <a id="copywright-link"
-  href="https://github.com/soumyajit4419/Portfolio"
-  
-  target="_blank"
-  rel="noopener noreferrer"
-  
->
-  Soumyajit Behera
-</a>
-
-  <h3> {/* Cor cinza discreta */}
-    Copyright © {year} SB
-  </h3>
-</Col>
+        <Col
+          md="4"
+          className="footer-links"
+          style={{ position: "relative", zIndex: 10 }}
+        >
+          <h3>{t("quick_links")}</h3>
+          <ul className="footer-nav-links">
+            <li>
+              <Link to="/" className="footer-link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="footer-link">
+                {t("about")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/project" className="footer-link">
+                {t("projects")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/resume" className="footer-link">
+                {t("resume")}
+              </Link>
+            </li>
+          </ul>
+        </Col>
 
         {/* Ícones Sociais */}
         <Col md="4" className="footer-body">
-          <h3>{t('connect_me')}</h3>
+          <h3>{t("connect_me")}</h3>
           <ul className="footer-icons">
             <li className="social-icons">
               <a

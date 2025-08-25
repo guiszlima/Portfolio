@@ -1,0 +1,118 @@
+{
+  "selectedTemplate": 6,
+  "headings": {
+    "awards": "",
+    "work": "EXPERIÊNCIAS",
+    "skills": "HABILIDADES",
+    "education": "Educação"
+  },
+  "basics": {
+    "email": "gui.spicacci.dev@gmail.com",
+    "phone": "11991993229",
+    "name": "Guilherme Lima",
+    "location": {
+      "address": "São Paulo, SP"
+    },
+    "website": "            | portfolio-guiszlima.vercel.app | github.com/guiszlima | linkedin.com/in/guilhermesouzalima/"
+  },
+  "education": [
+    {
+      "institution": "UNINOVE",
+      "startDate": "2023",
+      "endDate": "Dez/2026",
+      "area": " Ciência da Computação",
+      "studyType": "Bacharelado |"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Desenvolvimento e implementação de sistemas personalizados sob demanda, com foco em automação e otimização de processos empresariais.",
+        "Criação de Ponto de Venda (PDV) integrado com WooCommerce que otimizou o controle de estoque e vendas para pequenas lojas, utilizando Laravel como ferramenta de backend.",
+        "Arquitetura e estruturação de aplicações web, aplicando padrões de arquitetura de software para garantir escalabilidade e segurança.",
+        "Desenvolvimento de sites, e-commerces e landing pages utilizando WordPress. ",
+        "Suporte técnico e consultoria para empresas e empreendedores."
+      ],
+      "company": "Freelancer ",
+      "position": "Desenvolvedor Web",
+      "startDate": "Ago/2024",
+      "endDate": "Atual"
+    },
+    {
+      "website": "",
+      "highlights": [
+        "Suporte técnico a usuários em diferentes setores, incluindo atendimento e troubleshooting.",
+        "Resolução de problemas em hardware e software, com foco em agilidade e eficiência.",
+        "Manutenção preventiva e corretiva de equipamentos e sistemas.",
+        "Apoio na configuração e suporte a sistemas internos da prefeitura.",
+        "Configuração e monitoramento de servidores com Zabbix",
+        "Desenvolvimento de sistemas web com Laravel e Wordpress"
+      ],
+      "company": "PREFEITURA DE SÃO PAULO (PMSP)",
+      "position": "Estagiário de Suporte Técnico ",
+      "startDate": "Dez/2023",
+      "endDate": "Ago/2024"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python (FastAPI, RPC, Automação)",
+        "JavaScript & TypeScript (Node.js, Express.js)",
+        " PHP (Laravel)"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Livewire",
+        "Blade"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": ["MySQL", "SQL", "MongoDB"],
+      "name": "Banco de Dados"
+    },
+    {
+      "keywords": ["Linux", "Git", "Docker", "Zabbix"],
+      "name": "Devops"
+    },
+    {
+      "keywords": ["PowerShell", "Postman", "WordPress"],
+      "name": "Tecnologias"
+    },
+    {
+      "keywords": ["Português (nativo)", "Inglês (avançado)"],
+      "name": "Idiomas"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
