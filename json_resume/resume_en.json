@@ -60,7 +60,8 @@
       "keywords": [
         "Python (FastAPI, RPC, Automation)",
         "JavaScript & TypeScript (Node.js, Express.js)",
-        " PHP (Laravel)"
+        " PHP (Laravel)",
+        "Java"
       ],
       "name": "Backend"
     },
